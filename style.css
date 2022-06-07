@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: boarder-box;
+    list-style: none;}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;}
+    
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+    font-family: 'ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
